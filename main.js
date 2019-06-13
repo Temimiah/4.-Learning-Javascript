@@ -15,7 +15,7 @@ amountPaid = parseFloat(amountPaid).toFixed(2);
 //Programme output:
 //Print change amount
 //Print change breakdown: notes and coins
-let changeDue = parseFloat(amountPaid - total).toFixed(2);
+var changeDue = parseFloat(amountPaid - total).toFixed(2);
 
 console.log(changeDue);
 window.alert(changeDue); //I added this line to inform customer of their change
